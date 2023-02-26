@@ -1,0 +1,52 @@
+.header {
+  height: 70px;
+  border-bottom: 1px solid #CFD7E6;
+}
+.title {
+  width: 1000px;
+  margin: auto;
+  padding: 31px 0 11px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cross-box{
+  display: none;
+}
+
+@media (max-width:1200px) {
+  .header {
+    height: 40px;
+  }
+  .title {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    width: 600px;
+    height: 100%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width:600px) {
+  .header {
+    position: relative;
+    height: 40px;
+  }
+  .title {
+    width: 100%;
+  }
+  .cross-box{
+    display: grid;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+  }
+  .cross{
+    cursor: pointer;
+  }
+}
