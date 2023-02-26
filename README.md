@@ -10,6 +10,6 @@
 
 
 # 問題
-- 發Request時，因為CORS阻擋存取，所以我將內容複製到我的GitHub JOSN檔，發送Request
+- 發Request時，因為CORS阻擋存取，所以我將內容複製到我的GitHub JSON檔，發送Request
 
 ![image](https://user-images.githubusercontent.com/95182061/221399494-4907ca2c-e10a-4783-b368-2356f6bd38d7.png)
